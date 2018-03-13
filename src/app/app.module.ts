@@ -21,7 +21,6 @@ import { HeaderComponent } from './componets/header/header.component';
 import { FooterComponent } from './componets/footer/footer.component';
 import { UserService } from './services/user.service';
 
-
 @NgModule({
   declarations: [
     AppComponent,

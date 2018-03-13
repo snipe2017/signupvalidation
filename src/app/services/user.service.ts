@@ -26,10 +26,9 @@ export class UserService {
    const body = JSON.stringify(data);
    const headers = new Headers();
    headers.append('Content-Type', 'application/json');
-   return this.http.post('http://192.168.1.110:8080/DemoAPI/rest/registerUser', body,
+   return this.http.post('http://192.168.1.146:8080/DemoAPI/rest/registerUser', body,
     { headers: headers }).map((res: Response) => res.json());
   }
-
 
 
   login(data): Observable<boolean> {
@@ -102,6 +101,11 @@ export class UserService {
   private handleErrors (error: Response | any) {
     return Observable.throw(error.json().message || 'backend server error');
   }
+
+  Getrecent() {
+    return this.http.get('http://localhost:8180/DemoAPI/rest/recentQs').map(response => response.json());
+ }
+
 }
   
   

@@ -454,7 +454,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	font-family: "FontAwesome";
 	font-size: 10px;
 	margin-right: 8px;
-	speak: none;
+	/* speak: none; */
 	position: relative;
 	top: 1px;
 }
@@ -1021,7 +1021,7 @@ div[class*="slider_shadow"]:before, div[class^="header_shadow"] {
 	text-transform: capitalize;
 	font-size: 12px;
 	display: inline-block;
-	float: left;
+	/* float: left; */
 }
 .share-inside {
 	float: left;
@@ -2793,12 +2793,12 @@ input[type="checkbox"]:checked::before {
 	text-align: center;
 }
 /* Ask Question */
-.ask-question .form-style label {
+/* .ask-question .form-style label {
 	float:;
 	width: 17%;
 	margin-left: 5%;
 	margin-top: 9px;
-}
+} */
 .ask-question .form-description {
 	width: 80%;
 	display: inline-block;
@@ -2933,7 +2933,7 @@ input[type="checkbox"]:checked::before {
 	margin-right: 5px;
 	color: #2f3239;
 }
-.fileinputs input.file {
+/* .fileinputs input.file {
 	position: relative;
 	padding: 12px;
 	cursor: pointer;
@@ -2942,7 +2942,7 @@ input[type="checkbox"]:checked::before {
 	opacity: 0;
 	z-index: 2;
 	width: 100%;
-}
+} */
 .fileinputs:hover input[type="button"] {
 	background-color: #333;
 }
@@ -2973,7 +2973,7 @@ select {
 	font-size: 13px;
 	border-radius: 0;
 	-webkit-appearance: button;
-	-webkit-user-select: none;
+	/* -webkit-user-select: none; */
 	color: #2f3239;
 	border: 1px solid #dedede;
 	-moz-transition: border .25s linear, color .25s linear, background-color .25s linear;
@@ -2981,7 +2981,7 @@ select {
 	-o-transition: border .25s linear, color .25s linear, background-color .25s linear;
 	transition: border .25s linear, color .25s linear, background-color .25s linear;
 	background-color: #f3f3f3;
-	width: 100%;
+	width: 33%;
 }
 .styled-select {
 	position: relative;
@@ -3605,7 +3605,7 @@ h2 [class^="icons-"], h2 [class*=" icons-"] {
 	float: left;
 	margin: 0px 15px 0px 0;
 	line-height: 32px;
-	vertical-align: text-bottom;
+	/* vertical-align: text-bottom; */
 }
 .icons p {
 	margin: 0 0 0 47px;
@@ -4363,8 +4363,8 @@ h2 [class^="icons-"], h2 [class*=" icons-"] {
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
 }
-@-webkit-animation expandWidth { 0%{width:0} 100%{width:auto} }
-@-webkit-keyframes move { 0%{background-position:0 0} 100%{background-position:90px 90px} }
+/* @-webkit-animation expandWidth { 0%{width:0} 100%{width:auto} } */
+/* @-webkit-keyframes move { 0%{background-position:0 0} 100%{background-position:90px 90px} } */
 .progressbar-title {
 	font-size: 13px;
 	color: #2f3239;
@@ -4911,7 +4911,7 @@ a.carousel-next {
 }
 .flexslider .slides > li {
 	display: none;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 }
 .flexslider .slides img {
 	max-width: 100%;
